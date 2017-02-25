@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{%import "bootstrap/wtf.html" as wtf%}
+
+</head>
+<body>
+
+{% block navbar %}
+   
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+     
+      </li>
+      <li class="nav-item">
+
+      </li>
+      <li class="nav-item">
+
+    </ul>
+  </nav>
+{% endblock %}
+
+{% block content %}
+  <div class="text-xs-center m-t-2 m-x-3">
+  <h1> Log In Here! </h1>
+  </div>
+
+<!--
+ <form method='POST' target='/login'>
+  <center> Email:</center><br>
+  <center><input type="email" email="user_email"></center><br>
+  <center>Password:</center><br>
+  <center><input type="password" name="user_password"></center>
+  <br>
+  <center><input type="submit" value="Submit"></center>
+-->
+
+
+
+
+
+
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4"  align='center' >
+      {{wtf.quick_form(form)}}
+      </div>
+    </div>
+{% endblock %}

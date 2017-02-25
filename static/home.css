@@ -1,0 +1,35 @@
+.one
+{
+  padding-left: 15px;
+}
+
+.first
+{
+  font-family: Geneva;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
+.btns
+{
+  background-color: #f7f7f7;
+  border-bottom-style: solid;
+}
+
+.a
+{
+  position: absolute;
+  top: 700px;
+  right: 600px;
+  width: 200px;
+  height: 100px;
+}
+
+.b
+{
+  position: absolute;
+  top: 700px;
+  right: 500px;
+  width: 200px;
+  height: 100px;
+}

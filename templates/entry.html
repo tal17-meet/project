@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+<title>Entry Page</title>
+ <head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='static.css') }}">
+</head>
+
+{% block navbar %}
+
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+      </li>
+      <li class="nav-item">
+                    <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+
+
+      </li>
+    </ul>
+  </nav>
+{% endblock %}
+
+{% block content %}
+
+
+	<div class="container">
+		<div class="row">
+				
+		</div>
+	<div class=row>
+	<h5  class="text-xs-center" style = "color:#66c2ff">Volontiring anywhere, anytime, without commitment.<br>option for you do what you want to!<br>help in your way.</h5>
+	 </div>
+	 <br>
+
+	<center><a class="btn btn-danger" href ="{{url_for('signup')}}">Sign up!</a><br></center><br>
+
+
+	<center><button type="button" class="btn btn-danger" onclick = "window.location.href ='login'">Log In</button><br></center>
+
+
+{% endblock %}
+

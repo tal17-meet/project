@@ -1,0 +1,27 @@
+.one
+{
+  padding-left: 15px;
+}
+
+.first
+{
+  font-family: Geneva;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
+.btns
+{
+  background-color: #f7f7f7;
+  border-bottom-style: solid;
+}
+
+.comments {
+
+	position: absolute;
+    top: 600px;
+    right: 250px;
+    width: 500px;
+    height: 500px;
+
+}
